@@ -1,0 +1,18 @@
+{
+  "name": "electron-financial-system",
+  "version": "1.0.0",
+  "description": "An electron and typescript project, which will be a financial system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Dutra",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^14.0.0",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10"
+  }
+}
