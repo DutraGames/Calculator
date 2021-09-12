@@ -1,0 +1,53 @@
+:root{
+    --color-white: #fff;
+    --color-black: #222;
+    --color-clean: #f50057;
+    --color-result: #2979ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#result {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 8px;
+    outline: 0;
+}
+
+#numbers {
+    width: 100%;
+	height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#numbers button {
+    width: 33.33%;
+    height: 51.9px;
+    background-color: var(--color-black);
+    border: 1px solid #333;
+    color: var(--color-white);
+    opacity: 1;
+}
+
+#numbers button:hover {
+    opacity: 0.8;
+}
+
+#numbers .double {
+    width: 66.66%;
+}
+
+#numbers .clean {
+  background-color: var(--color-clean);
+}
+
+#numbers .equal {
+    background-color: var(--color-result);
+}
