@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial System</title>
+    <title>Calculadora</title>
+    <script src="./dist/cal.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    <h2>Hello Word!</h2>
+
+    <input type="text" name="result" id="result" readonly>
+
+    <div id="numbers">
+        <button onclick="clean()" class="double clean">C</button>
+        <button onclick="calc(1)">1</button>
+        <button onclick="calc(2)">2</button>
+        <button onclick="calc(3)">3</button>
+        <button onclick="calc(4)">4</button>
+        <button onclick="calc(5)">5</button>
+        <button onclick="calc(6)">6</button>
+        <button onclick="calc(7)">7</button>
+        <button onclick="calc(8)">8</button>
+        <button onclick="calc(9)">9</button>
+        <button onclick="calc('+', true)">+</button>
+        <button onclick="calc('-', true)">-</button>
+        <button onclick="calc('/', true)">&#247;</button>
+        <button onclick="calc('*', true)">*</button>
+        <button onclick="resolve()" class="double equal">=</button>
+        <button onclick="calc(0)">0</button>
+    </div>
 </body>
 </html>
