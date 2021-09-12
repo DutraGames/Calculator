@@ -7,7 +7,7 @@ function createWindow () {
     const win = new BrowserWindow({
       width: 250,
       height: 400,
-      title: "Calculdora",
+      title: "Calculator",
       resizable:false,
       show: false,
       icon: iconpath,
